@@ -295,5 +295,5 @@ async def to_code(config):
         cg.add(var.set_humidity_setpoint_sensor(sens))
     cg.add_library(
         name="MideaUART",
-        repository="https://github.com/SwiCago/HeatPump",
+        repository="https://github.com/solomondg1/MideaUART",
     )
